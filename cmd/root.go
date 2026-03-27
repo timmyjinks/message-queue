@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/spf13/cobra"
-	"github.com/timmyjinks/simple-kafka/consumer"
-	"github.com/timmyjinks/simple-kafka/producer"
+	"github.com/timmyjinks/message-queue/kafka/consumer"
+	"github.com/timmyjinks/message-queue/kafka/producer"
 )
 
 var rootCmd = &cobra.Command{

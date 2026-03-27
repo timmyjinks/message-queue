@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/timmyjinks/simple-kafka/consumer"
-	"github.com/timmyjinks/simple-kafka/producer"
+	"github.com/timmyjinks/message-queue/kafka/consumer"
+	"github.com/timmyjinks/message-queue/kafka/producer"
 )
 
 type application struct {

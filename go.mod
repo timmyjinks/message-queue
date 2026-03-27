@@ -1,4 +1,4 @@
-module github.com/timmyjinks/simple-kafka
+module github.com/timmyjinks/message-queue
 
 go 1.25.0
 
